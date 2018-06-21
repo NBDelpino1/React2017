@@ -1,3 +1,12 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    text-shadow: none !important;
+    letter-spacing:.5px;
+    color: #111111;
+}
+
 .search-bar {
     margin:20px;
     text-align: center;
@@ -20,6 +29,7 @@
 
 .list-group-item {
     cursor: pointer;
+    border-radius: 0!important;
 }
 
 .list-group-item:hover {
@@ -36,35 +46,33 @@
     float: right;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizelegibility;
-    letter-spacing:.5px;
-    color: #111111;
-}
-
-p {
-    font-size:14px;
-    font-weight:500;
-    line-height:16px;
+#comments-icon {
+    height:20px;
+    position:absolute;
+    bottom:20px;
+    right:20px;
 }
 
 .details {
     height:168px;
     border-radius: 0!important;
+    position:relative;
 }
 
-.list-group-item {
-    border-radius: 0!important;
-}
-
-.main-vid-desc {
+.main-vid-sub-text {
     font-weight:400;
 }
 
 h2 {
     font-size:18px;
-    font-weight:400;
+    font-weight:900;
     line-height:24px;
 }
+
+p {
+    font-size:14px;
+    line-height:16px;
+    font-weight:600;
+}
+
+
