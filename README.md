@@ -6,3 +6,4 @@
 
 ![app-display](https://user-images.githubusercontent.com/18251657/41696840-21dc6a40-74e4-11e8-845c-d6886f6f2553.png)
 
+#### To check it out clone the repo, cd into the repo, run npm install from the command line then npm start
