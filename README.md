@@ -1,4 +1,4 @@
-# React
+# react_youtube application
 
 ### Minature application that uses youtube api to search and play videos, build with React
 #### Self study on Udemy - shout out the teacher Stephen Grider!
